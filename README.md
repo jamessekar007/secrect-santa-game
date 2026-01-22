@@ -10,6 +10,9 @@ node index.js
 ## Tests
 npm test
 
+## Output
+data/Secret-Santa-Result-2026.csv
+
 ## Features
 - No self assignments
 - No previous year repetition

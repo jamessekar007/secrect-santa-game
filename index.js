@@ -36,7 +36,7 @@ const Validator = require("./utils/Validator");
     }
 
     CsvService.writeCsv(CURRENT_PATH, output);
-    console.log("Secret Santa assignments generated successfully!");
+    console.log("Secret Santa assignments generated successfully! Output Path -",CURRENT_PATH);
   } catch (err) {
     console.error("Error:", err.message);
   }
